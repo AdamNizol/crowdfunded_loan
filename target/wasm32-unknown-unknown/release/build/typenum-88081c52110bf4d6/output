@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=D:\Adams\scrypto\crowdfunded_loan\target\wasm32-unknown-unknown\release\build\typenum-88081c52110bf4d6\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=D:\Adams\scrypto\crowdfunded_loan\target\wasm32-unknown-unknown\release\build\typenum-88081c52110bf4d6\out\op.rs

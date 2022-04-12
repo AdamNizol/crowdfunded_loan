@@ -16,8 +16,7 @@ blueprint! {
                 .metadata("name", "LenderToken")
                 .metadata("symbol", "LND")
                 .flags(MINTABLE | BURNABLE)
-                .badge(admin_badge.resource_def(), MAY_MINT)
-                .badge(admin_badge.resource_def(), MAY_BURN)
+                .badge(admin_badge.resource_def(), MAY_MINT | MAY_BURN)
                 .metadata("description", "A lender token")
                 .no_initial_supply();
 

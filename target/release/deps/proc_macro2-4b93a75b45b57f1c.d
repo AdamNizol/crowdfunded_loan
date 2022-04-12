@@ -1,0 +1,12 @@
+D:\Adams\scrypto\crowdfunded_loan\target\release\deps\proc_macro2-4b93a75b45b57f1c.rmeta: C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\lib.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\marker.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\parse.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\detection.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\fallback.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\wrapper.rs
+
+D:\Adams\scrypto\crowdfunded_loan\target\release\deps\libproc_macro2-4b93a75b45b57f1c.rlib: C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\lib.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\marker.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\parse.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\detection.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\fallback.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\wrapper.rs
+
+D:\Adams\scrypto\crowdfunded_loan\target\release\deps\proc_macro2-4b93a75b45b57f1c.d: C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\lib.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\marker.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\parse.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\detection.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\fallback.rs C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\wrapper.rs
+
+C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\lib.rs:
+C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\marker.rs:
+C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\parse.rs:
+C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\detection.rs:
+C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\fallback.rs:
+C:\Users\Adam\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.37\src\wrapper.rs:
