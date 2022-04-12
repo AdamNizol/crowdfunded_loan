@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=D:\Adams\scrypto\crowdfunded_loan\target\debug\build\typenum-d888e37062fff8f5\out\consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=D:\Adams\scrypto\crowdfunded_loan\target\debug\build\typenum-d888e37062fff8f5\out\op.rs
