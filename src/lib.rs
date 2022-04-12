@@ -70,8 +70,18 @@ blueprint! {
             return returned_bucket;
         }
 
+        // lends out all the xrd in the vault
         pub fn request_max_loan(&mut self, component_address: Address) -> Bucket {
             self.request_loan(self.xrd_vault.amount(),component_address)
+        }
+
+        // similar to request_loan but will loan max rather than fail if the amount cannot be filled
+        pub fn request_loan_upto(&mut self, amount: Decimal, component_address: Address) -> Bucket {
+            self.request_loan(if amount > self.xrd_vault.amount(){self.xrd_vault.amount()}else{amount}, component_address)
+        }
+
+        pub fn get_balance(&self) -> Decimal {
+            self.xrd_vault.amount()
         }
 
     }
