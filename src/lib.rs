@@ -11,18 +11,17 @@ blueprint! {
     impl Loan {
 
         pub fn new(loan_interest: Decimal, cash_address: Address) -> Component {
-            let cash_def: ResourceDef = ResourceDef::from(cash_address);
             let admin_badge: Bucket = ResourceBuilder::new_fungible(DIVISIBILITY_NONE).initial_supply_fungible(1);
             let lender_resource_def: ResourceDef = ResourceBuilder::new_fungible(DIVISIBILITY_MAXIMUM)
                 .metadata("name", "LenderToken")
-                .metadata("symbol", "LND")
+                .metadata("symbol", "LT")
                 .flags(MINTABLE | BURNABLE)
                 .badge(admin_badge.resource_def(), MAY_MINT | MAY_BURN)
                 .metadata("description", "A lender token")
                 .no_initial_supply();
 
             Self {
-                cash_vault: Vault::new(cash_def),
+                cash_vault: Vault::new(ResourceDef::from(cash_address)),
                 loan_interest: loan_interest,
                 lender_resource: lender_resource_def,
                 lender_badge: Vault::with_bucket(admin_badge)
